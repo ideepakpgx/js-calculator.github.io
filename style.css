@@ -1,0 +1,27 @@
+﻿.main-body{
+    display:grid;
+}
+.calculator {
+    width: 300px;
+    height: 400px;
+    background-color: #1D1D1D;
+    align-self: center;
+    justify-self: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 25px 60px -10px rgba(0,0,0,0.5);
+}
+#output {
+    pointer-events: none;
+    width: 240px;
+    height: 100px;
+    margin-left: 25px;
+    margin-top: 22px;
+}
+.btn {
+    width: 40px;
+    height: 37px;
+    margin-top: 13px;
+    margin-left: 25px;
+    background-color:#BDBEC0;
+}
